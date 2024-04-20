@@ -1,0 +1,21 @@
+.navigationRow-mainDiv{
+    width: 100%;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+.navigationRow-row{
+    width: 100%;
+    text-align: center;
+    background-color: black;
+    color: white;
+    font-size: 22px;
+    padding: 0.8rem;
+}
+.navigationRow-link{
+    color: white;
+    text-decoration: none;
+}
+.navigationRow-link:hover{
+    color: purple;
+    
+}

@@ -1,11 +1,16 @@
-import logo from './fak.jpg';
-import './App.css';
+import { BrowserRouter as Router, Route } from 'react-router-dom'
+import { Routes } from "react-router-dom";
+import HomePage from './pages/HomePage';
 
 function App() {
   return (
     <div className="App">
-      
-        <img src={logo} className="App-logo" alt="logo" />
+      <Router>
+        <Routes>
+          <Route path='/' element={<HomePage/>}/>
+        </Routes>
+      </Router>
+        
       
     </div>
   );

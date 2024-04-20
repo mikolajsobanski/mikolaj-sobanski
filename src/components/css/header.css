@@ -1,0 +1,26 @@
+.header-mainDiv{
+    width: 100%;
+}
+.header-row{
+    width: 100%;
+}
+.header-firstCol{
+    background-image: url('../../assets/backgroundCode.jpg');
+    background-size: contain;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.header-myPhoto{
+    width: auto;
+    height: 30vh;
+}
+.header-firstColDiv{
+    background-color: black;
+    width: 40vw;
+    border-radius: 25px;
+    padding: 0.4rem;
+    font-size: 22px;
+}
