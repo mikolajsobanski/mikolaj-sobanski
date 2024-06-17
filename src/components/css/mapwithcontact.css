@@ -1,0 +1,36 @@
+/* src/MapWithContact.css */
+.container-map {
+    display: flex;
+    height: 500px;
+    margin: 20px;
+  }
+  
+  .map-column {
+    flex: 1;
+    height: 100%;
+  }
+  
+  .contact-column {
+    flex: 1;
+    padding: 20px;
+    
+    border-left: 1px solid #ddd;
+  }
+  
+  .contact-column h2 {
+    margin-top: 0;
+  }
+  
+  .contact-column p {
+    margin: 10px 0;
+  }
+  
+  .contact-column a {
+    color: #007bff;
+    text-decoration: none;
+  }
+  
+  .contact-column a:hover {
+    text-decoration: underline;
+  }
+  
